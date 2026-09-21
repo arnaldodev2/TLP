@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="iApso95YCNRFmoZMfhBA">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="80" x="334" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-2" edge="1" parent="1" source="1DK37ljvKQw7sbMlRBE_-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="374" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="read&amp;nbsp; n1 n2 n3 e n4" vertex="1">
+          <mxGeometry height="60" width="120" x="314" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" value="(n1 +n2+n3+n4) /4" vertex="1">
+          <mxGeometry height="60" width="120" x="314" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="End" vertex="1">
+          <mxGeometry height="80" width="80" x="340" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="373.5" y="330" />
+            </Array>
+            <mxPoint x="373.5" y="310" as="sourcePoint" />
+            <mxPoint x="373.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.5" y="450" as="sourcePoint" />
+            <mxPoint x="379.5" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="379.5" y="590" as="sourcePoint" />
+            <mxPoint x="379.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DK37ljvKQw7sbMlRBE_-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="show results" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
