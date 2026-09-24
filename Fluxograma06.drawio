@@ -1,9 +1,41 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="RvHscmYCHyOvW38sQgcX">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-4" edge="1" parent="1" source="FWv5IRSU-arjr0pcFbeD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FWv5IRSU-arjr0pcFbeD-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-7" edge="1" parent="1" source="FWv5IRSU-arjr0pcFbeD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FWv5IRSU-arjr0pcFbeD-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="n = quantos numeros quer somar" vertex="1">
+          <mxGeometry height="70" width="160" x="95" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-5" edge="1" parent="1" source="FWv5IRSU-arjr0pcFbeD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FWv5IRSU-arjr0pcFbeD-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ler Quantos numeros quer somar?" vertex="1">
+          <mxGeometry height="70" width="170" x="340" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-10" edge="1" parent="1" source="FWv5IRSU-arjr0pcFbeD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="ler digite n numeros" vertex="1">
+          <mxGeometry height="70" width="150" x="100" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="soma = 0&lt;div&gt;count += 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FWv5IRSU-arjr0pcFbeD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="soma +=&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="385" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
