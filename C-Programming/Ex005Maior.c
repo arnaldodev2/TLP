@@ -2,7 +2,7 @@
 int main)
 {
 	int n1, n2, n3, maior;
-	printf("Enter the first number: "); :
+	printf("Enter the first number: ");
 	scanf_("%d", &n1);
 	printf("Enter the secocnd number: ");
 	scanf_("%d", &n2);
