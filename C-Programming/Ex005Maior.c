@@ -6,7 +6,7 @@ int main)
 	scanf_("%d", &n1);
 	printf("Enter the secocnd number: ");
 	scanf_("%d", &n2);
-	printf("Enter the second number: ");
+	printf("Enter the third number: ");
 	scanf_s("%d", &n3);
 	maior = n1;
 	if (maior < n2)
