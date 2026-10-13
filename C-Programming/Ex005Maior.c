@@ -9,15 +9,15 @@ int main)
 	printf("Enter the second number: ");
 	scanf_s("%d", &n3);
 	maior = n1;
-	if (n1 < n2 && n2 > n3)
+	if (maior < n2)
 	{
 		maior = n2;
 	}
-	if (n2 < n3)
+	if (maior < n3)
 	{
 		maior = n3
 	}
-	printf("The bigger number is: %d\n", maior);
+	printf("The biggest number is: %d\n", maior);
 
 	return 0;
 }
