@@ -8,8 +8,8 @@ int main()
 		scanf_s("%d", &n);
 		acumulador = acumulador + n;
 		count = count + 1;
-		media = acumulador / count;
 	}
+	media = acumulador / count;
 	printf("A media dos numeros digitados e: %d\n", media);
 	return 0;
 }
