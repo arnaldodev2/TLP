@@ -2,9 +2,10 @@
 📚 TLP — Programming Languages Techniques
 
 "Status"(https://img.shields.io/badge/Status-In%20Progress-blue)
-"Language" (https://img.shields.io/badge/Language-C-blue)
-"Platform" (https://img.shields.io/badge/Platform-GitHub-black)
-"License" (https://img.shields.io/badge/License-Educational-green)
+
+"Language"(https://img.shields.io/badge/Language-C-blue)
+"Platform"(https://img.shields.io/badge/Platform-GitHub-black)
+"License"(https://img.shields.io/badge/License-Educational-green)
 
 «A repository dedicated to learning, practicing, and developing programming skills throughout the TLP course.»
 
