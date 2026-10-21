@@ -2,9 +2,11 @@
 #include <locale.h>
 int main()
 {
-	setlocale(LC_All, "Portuguese");
-	int n;
+	//setlocale(LC_All, "Portuguese");
+	int n, i;
 	printf("Digite um numero para ver a sua tabuada:");
-	scanf("%d", &n);
-	for(n = 0; n =< 10; n++)
+	scanf_s("%d", &n);
+	for (i = 0; i <= 10; i++)
+	printf("%d X %d = %d\n", n, i, n * i);
+	return 0;
 }
