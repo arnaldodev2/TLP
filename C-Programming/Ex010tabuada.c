@@ -6,7 +6,7 @@ int main()
 	int n, i;
 	printf("Digite um numero para ver a sua tabuada:");
 	scanf_s("%d", &n);
-	for (i = 0; i <= 10; i++)
+	for (i = 1; i <= 10; i++)
 	printf("%d X %d = %d\n", n, i, n * i);
 	return 0;
 }
