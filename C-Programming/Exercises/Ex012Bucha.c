@@ -1,21 +1,27 @@
 #include <stdio.h>
 int main()
 {
-	int i = 0, n = 1, n2, maior = 0, menor = 0;
-	if (n != 0)
+	int i, n, n2, maior = -2147483647, menor = 2147483647;
+	do
 	{
-		printf("Quantos numeros quer comparar?: \n");
-		scanf_s("%d", &n);
-		for (i; i < n; i++)
+		printf("Quantos numeros quer comparar?:\n");
+		scanf("%d", &n);
+		if (n > 0)
 		{
-			printf("Digite um numero: \n");
-			scanf_s("%d", &n2);
+			for (i = 0; i < n; i++)
+			{
+				printf("Digite um numero:\n");
+				scanf("%d", &n2);
+				if( maior < n2)
+				{
+					maior = n2;
+				}
+				if(menor > n2)
+				{
+					menor = n2;
+				}
+			}
+			printf("O maior numero e %d e o menor e %d\n", maior, menor);
 		}
-		if (maior < n2)
-		{
-			maior = n2;
-		}
-		printf("O maior numero e %d e o menor e %d", maior);
-	}
-	return 0;
+	}while(n != 0);
 }
