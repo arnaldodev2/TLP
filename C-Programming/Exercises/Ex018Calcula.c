@@ -3,8 +3,8 @@ int main()
 {
 	int n, n1;
 	char calc;
-	printf("Press\ns para somar\nm para multiplicar\nd para dividir\nsb para subtrair\n");
-	scanf_s("%d", &calc);
+	printf("Press\n[s] para somar\n[m] para multiplicar\n[d] para dividir\n[sb] para subtrair\n");
+	scanf_s("%c", &calc);
 	printf("Digite o primeiro numero:\n");
 	scanf_s("%d", &n);
 	printf("Digite o Segundo numero:\n");
