@@ -8,7 +8,7 @@ int main()
 		scanf("%d", &vetor[10]);
 		if(vetor[10] < 0)
 			count+= 1;
-			somador+= vetor[10];
+			somador+= vetor[i];
 	}
 	printf("Digite [1] Para saber quantos negativos tem\nDigite [2] para somar os numeros negativos\n");
 	scanf("%d", &n);
